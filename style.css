@@ -14,7 +14,7 @@
         /* *********************/
         
         #inicio {
-            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/portada.webp");
             background-size: cover;
             background-position: center center;
             height: 100vh;
@@ -622,3 +622,19 @@
                 margin-bottom: 15px;
             }
         }
+.logo-tech{
+    height: 100px;
+    margin: 10px auto;
+}
+.techs{
+    margin: 50px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.redes{
+    margin: auto;
+}
+.fa-brands fa-linkedin{
+    height: 550px;
+}
